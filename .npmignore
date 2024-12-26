@@ -2,3 +2,5 @@ src
 node_modules
 eslint.config.js
 tsup.config.js
+tsconfig.json
+yarn.lock
