@@ -18,12 +18,10 @@ This library takes care of the login/logout process, token storage with `expo-se
 
 ## Installation
 
-This package leverages the `expo-auth-session` package.
-
-In order for this library to work, you need to install the [expo-auth-session](https://docs.expo.dev/versions/latest/sdk/auth-session/) package.
+In order for this library to work, you need to install the [expo-auth-session](https://docs.expo.dev/versions/latest/sdk/auth-session/) package with the combination of `expo-secure-store` for token management.
 
 ```bash
-npx expo install expo-auth-session expo-crypto
+npx expo install expo-auth-session expo-crypto expo-secure-store
 ```
 
 After you have installed these packages in your expo project, you can install the `expo-keycloak-client` package.
